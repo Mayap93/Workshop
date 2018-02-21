@@ -13,18 +13,18 @@ body{
   position:fixed;
  z-index:2000; background:url("http://themes.mediacreed.com/html/synergy/assets/patterns/menu/menu_pattern_1.png");
   border-right:10px solid #d00355;
-  
+
   ul{
     margin-top:30px;
   }
-  
+
   li{
     list-style:none;
     padding:10px;
     position:relative;
-   
+
   }
-  
+
   a{
     text-decoration:none;
     color:#555;
@@ -33,7 +33,7 @@ body{
     position:relative;
     z-index:1000;
   }
-  
+
   .hover{
     display:block;
     position:absolute;
@@ -45,18 +45,18 @@ body{
     z-index:0;
     opacity:0;
   }
-  
+
   a:hover{
     color:#FFF;
   }
-  
+
 
   .fa-angle-right{
     position:absolute;
     left:150px;
     top:1px;
   }
-  
+
   .sub-menu{
     z-index:2000;
     position:absolute;
@@ -65,23 +65,23 @@ body{
     padding:0px;
     width:220px;
     display:none; background:url("http://themes.mediacreed.com/html/synergy/assets/patterns/menu/menu_pattern_1.png");
-    
+
     li{
       a{
         padding-left:20px;
         font-size:13px;
       }
     }
-    
+
     i{
       left:180px;
     }
   }
-  
+
   ul li:hover ul{
     display:block;
   }
-  
+
   .push{
     margin-right:10px;
   }
@@ -95,27 +95,10 @@ h1{
 }
 
 .color{
-  color:#d00355;
+  color: white;
 }
 
-.portfolio{
-  width:1040px;
-  margin-left:250px;
-  position:relative;
-  z-index:0;
-  padding-top:20px;
-  li{
-    list-style:none;
-    float:left;
-    box-shadow:#000 0px 0px 10px;
-    border:1px solid #000;
-    position:relative;
-    overflow:hidden;
-    margin-right:10px;
-    z-index:0;
-    margin-bottom:20px;
-  }
-  
+
   li:before{
     content:"";
     position:absolute;
@@ -137,7 +120,7 @@ h1{
   background:#FFF;
   margin-top:-5px;
   padding-bottom:10px;
-  
+
   h1{
     color:#d00355;
     text-align:center;
@@ -152,7 +135,7 @@ h1{
     text-align:center;
     padding:10px;
   }
-  
+
   i{
     margin-left:110px;
     margin-top:15px;
@@ -168,7 +151,7 @@ h1{
   0%{
      -webkit-transform:scale(1);
   }
-  
+
   50%{
      -webkit-transform:scale(0.8);
   }
@@ -176,7 +159,3 @@ h1{
     -webkit-transform:scale(1);
   }
 }
-
-
-
-
