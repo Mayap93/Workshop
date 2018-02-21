@@ -19,10 +19,3 @@ $( "li" ).hover(
     })
   }
 );
-
- $(function() {
-    $( ".portfolio li" ).draggable();
-    $( ".portfolio li" ).on( "dragstart", function( event, ui ) {
-      $(this).addClass("active-drag");
-    } );
-  });
