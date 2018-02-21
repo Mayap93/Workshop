@@ -142,20 +142,3 @@ h1{
     color:#d00355;
   }
 }
-
-.active-drag{
-  -webkit-animation:drag 1.5s infinite;
-}
-
-@-webkit-keyframes drag{
-  0%{
-     -webkit-transform:scale(1);
-  }
-
-  50%{
-     -webkit-transform:scale(0.8);
-  }
-  100%{
-    -webkit-transform:scale(1);
-  }
-}
